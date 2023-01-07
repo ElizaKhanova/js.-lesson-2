@@ -1,0 +1,40 @@
+.container{
+    margin:auto 50px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.slider{
+    width: 548px;
+    height: 548px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line {
+    height: 548px;
+    width: 1644px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+.button-line {
+    display: flex;
+    justify-content: space-around;
+}
+.slider-prev, .slider-next{
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    font-size: large;
+}
+.slider-prev:hover, .slider-next:hover {
+    color: red;
+    cursor: pointer;
+    background-color: rgb(13, 13, 41);
+}
